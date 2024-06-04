@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@590&family=Julius+Sans+One&family=Major+Mono+Display&display=swap');
+
+body{
+    font-family: 'Julius Sans One', sans-serif;
+    background-image:url('/images/map.jpg');
+    background-size: cover;
+}
+
+#select-monster{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1{
+    color: rgb(39, 0, 93);
+    font-family: 'Major Mono Display', monospace;
+    font-size: 90px;
+    font-weight: bold;
+    
+}
+
+.subtitle{
+    color: rgb(39, 0, 93);
+    font-size: 4cqh;
+    font-weight: bold;
+   
+}
+
+.card-monster{
+    width: 180px;
+    height: 180px;
+    background-color:#C3ACFB;
+    padding: 20px;
+    margin-top:20px ;
+    box-sizing: border-box;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    opacity: 0.9;
+    
+}
+.card-monster img{
+    width: 110px;
+    margin-top: 20px;
+}
+.cards{
+    display: flex;
+    gap: 10px;
+}
+
+#button-monster{
+    border-radius: 10px;
+    width: 180px;
+    height: 40px;
+    margin-top: 30px;
+    background:#b41baf;
+    border: 1px solid rgb(228, 241, 255); 
+    font-family: 'Julius Sans One', sans-serif; 
+    color: rgb(228, 241, 255); 
+
+}
+
+input{
+    display: none;
+}
+
+#select-attack{
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-attack{
+    width: 160px;
+    height: 160px;
+    background-color :#9c6fe685;
+    margin: 10px;
+    border-radius: 100px;
+    box-sizing: border-box;
+    border-color: transparent;
+    opacity: 0.9;
+}
+
+.button-attack img{
+    width: 150px;
+    height: 150px;
+}
+#message{
+    width: 280px;
+    background: #f5c8fe;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#button-restart{
+    margin: 10px;
+    border-radius: 10px;
+    width: 180px;
+    height: 40px;
+    border: 1px solid rgb(228, 241, 255); 
+    background:#b41baf;
+    font-family: 'Julius Sans One', sans-serif; 
+    color: rgb(228, 241, 255); 
+
+}
+
+
+
+

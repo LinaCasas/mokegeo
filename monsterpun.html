@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MonsterGeo</title>
+    <script src="./JS/monsterpun.js"></script>
+    <link rel="stylesheet" href="./JS/stylesheet.css">
+</head>
+<body>
+    
+
+    <section id="select-monster">
+
+        <h1 class="title"> MonsTerGeO </h1>
+        <h2 class="subtitle">Choose your monster </h2>
+
+        <div class="cards">
+            <label class="card-monster" for="Gnar"> 
+                <p>Gnar</p>
+                <img src="./images/gnar.png" alt="Gnar">
+             </label>
+            <input type="radio" name="monster" id="Gnar"/>
+    
+            <label class="card-monster"  for="Zork">
+                <p>Zork</p>
+                <img src="./images/zork.png" alt="Zork"> 
+            </label> 
+            <input type="radio" name="monster" id="Zork"/>
+    
+            <label class="card-monster" for="Blix">
+                <p>Blix</p>
+                <img src="./images/blix.png" alt="Blix"> 
+            </label>
+            <input type="radio" name="monster" id="Blix"/> 
+        </div> 
+
+        <button id="button-monster">Select</button> 
+
+    </section>      
+
+    <section id="select-attack">
+
+        <h1 class="title"> MonsT=rGeO</h1>
+        
+        <h2 class="subtitle">Choose your attack</h2>
+
+        <div>
+            <button id="button-fire" class="button-attack">
+                <img src="./images/fire.png" alt="fire">
+            </button>
+            <button id="button-water" class="button-attack" >
+                <img src="./images/water.png" alt="water">
+            </button>
+            <button id="button-earth" class="button-attack">
+                <img src="./images/earth.png" alt="earth">
+            </button>
+        </div>
+
+
+        <div id="message">
+            <div id="result">Good Luck</div>
+
+            <section id="restart">
+                <button id="button-restart">Restart</button>
+            </section>
+        </div>
+
+        <div>
+            <div id="attack-player"></div>
+            <div id="attack-enemy"></div> 
+            <p>Your monster <span id="monster-player"></span> have <span id="lives-player">3</span> lives </p>
+            <p>The monster enemy <span id="monster-enemy"></span> have <span id="lives-enemy">3</span> lives </p>
+
+        </div>
+    </section> 
+</body>
+</html>
